@@ -5,7 +5,7 @@
 <header class="main_menu_area">
 
 <nav class="navbar ">
-      <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" "></a>
+      <a class="navbar-brand " href="#"><img src="image/logo.png" alt="" "></a>
       <ul class="navbar-nav ml-auto">
           <li class="nav-item reception-icon">
             <p> Reception: +8801-4518933 <i class="fas fa-phone "></i>  </p>

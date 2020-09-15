@@ -1,4 +1,4 @@
-$(function() {
+/*$(function() {
     $(window).on("scroll", function() {
         if($(window).scrollTop() > 50) {
             $(".menu-bar").addClass("active-menu-bar");
@@ -7,4 +7,4 @@ $(function() {
            $(".menu-bar").removeClass("active-menu-bar");
         }
     });
-});
+});*/
