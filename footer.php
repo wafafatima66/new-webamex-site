@@ -30,8 +30,8 @@
                 <div class="col-md-12 col-sm-12 text-center">
                     <a href="https://www.facebook.com/Web-Amex-115938159838216/" target="_blank"> <i class="fab fa-facebook-f footer-icon "></i></a>
                     <a href=""> <i class="fab fa-twitter footer-icon"> </i></a>
-                 <a href=""><i class="fab fa-instagram footer-icon"> </i></a>
-                   <a href="">  <i class="fab fa-linkedin footer-icon"> </i></a>
+                    <a href=""><i class="fab fa-instagram footer-icon"> </i></a>
+                    <a href="">  <i class="fab fa-linkedin footer-icon"> </i></a>
                 </div>
                 
            

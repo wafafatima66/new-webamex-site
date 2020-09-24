@@ -3,13 +3,36 @@
 
 <!--Picture slider-->
    
-    <header class="hero">
+    <header class="hero responsive-hidden">
+  
         <div class="banner">
-            <h1 class="banner-title"> We are a dedicated <span style="" >team</span> who loves to develop creative web applications</h1>
+    
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <h1 class="banner-title"> We are a dedicated <span style="" >team</span> who loves to develop creative web applications</h1>
+                        </div>
+                        <div class="carousel-item">
+                        <h1 class="banner-title"> WebAmex is a work <span style="color:#ff6600;" >Friendly</span> team you’ll ever get!</h1>
+                        </div>
+                        <div class="carousel-item">
+                        <h1 class="banner-title"> We are small but <span style="color:#ff6600;" >Decorate</span> builder!</h1>
+                        </div>
+                </div>
+            </div>
+
             <button class="banner-btn">Explore</button>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </header>
-           
+    
 <!--End of picture slider-->
                    
 <!--Get started area-->
@@ -57,7 +80,7 @@
     <div class="row">
    
         <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card service-card border-0 shadow pt-5">
+            <div class="card service-card border-0 shadow">
                 <div class="card-body"> <i class="fa fa-object-ungroup icon-lg icon-primary icon-bg-primary mb-3"></i>
                     <h4 class="mt-4 mb-3">Networking</h4>
                     <p>For what reason would it be advisable for me to think about business content?</p>
@@ -65,7 +88,7 @@
             </div>
         </div>
         <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card service-card  border-0 shadow  pt-5">
+            <div class="card service-card  border-0 shadow  ">
                 <div class="card-body"> <i class="fa fa-users icon-lg icon-yellow icon-bg-yellow  mb-3"></i>
                     <h4 class="mt-4 mb-3">Social Activity</h4>
                     <p>For what reason would it be advisable for me to think about business content?</p>
@@ -73,7 +96,7 @@
             </div>
         </div>
         <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow service-card pt-5">
+            <div class="card border-0 shadow service-card ">
                 <div class="card-body"> <i class="fa fa-desktop icon-lg icon-purple icon-bg-purple  mb-3"></i>
                     <h4 class="mt-4 mb-3">Web Design</h4>
                     <p>For what reason would it be advisable for me to think about business content?</p>
@@ -81,7 +104,7 @@
             </div>
         </div>
         <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow service-card pt-5">
+            <div class="card border-0 shadow service-card ">
                 <div class="card-body"> <i class="fa fa-cloud icon-lg icon-cyan icon-bg-cyan  mb-3"></i>
                     <h4 class="mt-4 mb-3">Cloud Service</h4>
                     <p>For what reason would it be advisable for me to think about business content?</p>
@@ -89,7 +112,7 @@
             </div>
         </div>
         <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow service-card pt-5">
+            <div class="card border-0 shadow service-card ">
                 <div class="card-body"> <i class="fa fa-comments icon-lg icon-red icon-bg-red  mb-3"></i>
                     <h4 class="mt-4 mb-3">Consulting</h4>
                     <p>For what reason would it be advisable for me to think about business content?</p>
@@ -97,7 +120,7 @@
             </div>
         </div>
         <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow service-card pt-5">
+            <div class="card border-0 shadow service-card ">
                 <div class="card-body"> <i class="fa fa-search-plus icon-lg icon-green icon-bg-green  mb-3"></i>
                     <h4 class="mt-4 mb-3">SEO Optimization</h4>
                     <p>For what reason would it be advisable for me to think about business content?</p>
@@ -105,7 +128,7 @@
             </div>
         </div>
         <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow service-card pt-5">
+            <div class="card border-0 shadow service-card ">
                 <div class="card-body"> <i class="fa fa-user icon-lg icon-orange icon-bg-orange  mb-3"></i>
                     <h4 class="mt-4 mb-3">Usability Testing</h4>
                     <p>For what reason would it be advisable for me to think about business content?</p>
@@ -113,7 +136,7 @@
             </div>
         </div>
         <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow service-card pt-5">
+            <div class="card border-0 shadow service-card ">
                 <div class="card-body"> <i class="fa fa-envelope icon-lg icon-blue icon-bg-blue  mb-3"></i>
                     <h4 class="mt-4 mb-3">UX Prototyping</h4>
                     <p>For what reason would it be advisable for me to think about business content?</p>
@@ -134,13 +157,14 @@
             <p>Read Our articles</p>
         </div>
          <div class="row">
-           <div class="one-third col-md-4"> <a href="#" class="img-caption">
+           <div class="one-third col-md-4 "> <a href="#" class="img-caption">
                   <figure> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1556030102/home-office-336373_640.jpg" alt="" />
                       <figcaption>
                           <h3>MY First Caption</h3> <span>For what reason would it be advisable for me to think about business content?</span>
                       </figcaption>
                   </figure>
-              </a> </div>
+              </a> 
+            </div>
           <div class="one-third col-md-4"> <a href="#" class="img-caption">
                   <figure> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1556030091/office-620822_640.jpg" alt="" />
                       <figcaption>
@@ -180,7 +204,7 @@
      <div class="col-md-7 col-sm-7 mr-auto">
       <h6 >We don’t hide, we stand tall in front of chalenge </h6>
     </div>
-    <div class="col-md-6 col-sm-6 mr-auto">
+    <div class="col-md-7 col-sm-7 mr-auto">
         <div class="about-content  ">
             <p>Web Amex is a professional web design, Software Development, e commerce Solution, Social Media Marketing, Search Engine Marketing, Email Marketing and Outsourcing Training company in Dhaka, Bangladesh. Since 2018 Web Amex have been providing the best web development solutions for corporate or individuals interested in the country. We have one of the best IT professional Team in this industry to ensure all kinds of IT support all over the world. We can take any kind of challenges related to our business & you can count that as our specialty. Web Amex assure the best work in the shortest possible time. Hire us because WE ARE NOTHING BUT THE BEST you will get.</p>
          </div>
@@ -203,46 +227,121 @@
             <p>Meet our team</p>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+
+            <div class="col-lg-3 col-md-6 ">
+
+                <div class="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454811/team-3.jpg" class="img-fluid" alt="">
+                    <div class="member-info">
+                        <div class="member-info-content">
+                            <h4>Walt Hannis</h4> <span>Chief Executive Officer</span>
+                        </div>
+                    </div>
+                </div>
+                 
+                <div class="team-modal text-center">
+                        <!-- Button trigger modal -->
+                    <button type="button" class="btn team-modal-btn" data-toggle="modal" data-target="#exampleModalCenter">
+                    Portfolio
+                    </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            
+             <div class="col-lg-3 col-md-6 ">
+
+                <div class="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454811/team-2.jpg" class="img-fluid" alt="">
+                    <div class="member-info">
+                        <div class="member-info-content">
+                            <h4>Walt Hannis</h4> <span>Chief Executive Officer</span>
+                        </div>
+                    </div>
+                </div>
+                 
+                <div class="team-modal text-center">
+                        <!-- Button trigger modal -->
+                    <button type="button" class="btn team-modal-btn" data-toggle="modal" data-target="#exampleModalCenter">
+                    Portfolio
+                    </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+             <div class="col-lg-3 col-md-6 ">
+
                 <div class="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454811/team-1.jpg" class="img-fluid" alt="">
                     <div class="member-info">
                         <div class="member-info-content">
                             <h4>Walt Hannis</h4> <span>Chief Executive Officer</span>
-                            <div class="social"> <a href=""><i class="fa fa-twitter"></i></a> <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i class="fa fa-google-plus"></i></a> <a href=""><i class="fa fa-linkedin"></i></a> </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                <div class="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454840/team-2.jpg" class="img-fluid" alt="">
-                    <div class="member-info">
-                        <div class="member-info-content">
-                            <h4>Namia Sarah</h4> <span>Project Manager</span>
-                            <div class="social"> <a href=""><i class="fa fa-twitter"></i></a> <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i class="fa fa-google-plus"></i></a> <a href=""><i class="fa fa-linkedin"></i></a> </div>
+                 
+                <div class="team-modal text-center">
+                        <!-- Button trigger modal -->
+                    <button type="button" class="btn team-modal-btn" data-toggle="modal" data-target="#exampleModalCenter">
+                    Portfolio
+                    </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>  
+                                </div>
+                            </div>
                         </div>
-                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                <div class="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454870/team-3.jpg" class="img-fluid" alt="">
-                    <div class="member-info">
-                        <div class="member-info-content">
-                            <h4>Jammy Anderson</h4> <span>CTO</span>
-                            <div class="social"> <a href=""><i class="fa fa-twitter"></i></a> <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i class="fa fa-google-plus"></i></a> <a href=""><i class="fa fa-linkedin"></i></a> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                <div class="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454900/team-4.jpg" class="img-fluid" alt="">
-                    <div class="member-info">
-                        <div class="member-info-content">
-                            <h4>Jepson Sinah</h4> <span>Developer</span>
-                            <div class="social"> <a href=""><i class="fa fa-twitter"></i></a> <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i class="fa fa-google-plus"></i></a> <a href=""><i class="fa fa-linkedin"></i></a> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          
         </div>
     </div>
 </section>

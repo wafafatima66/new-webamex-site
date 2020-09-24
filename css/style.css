@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 :root {
  
 --primaryColor: #ff6600;
@@ -15,7 +19,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 .boundary{
@@ -33,7 +38,7 @@
 .section-header p {
   text-align: center;
   margin: auto;
-  font-size: 15px;
+  font-size: 20px;
   padding-bottom: 60px;
   color: #556877;
   width: 50%
@@ -93,6 +98,12 @@
 .nav-link:hover{
   color: var(--primaryColor);
 }
+.fa-search{
+  color: var(--primaryColor);
+}
+.md-form{
+  margin:2px;
+}
 /* End Main Menu Area css
 ============================================================================================ */
 
@@ -103,24 +114,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .banner {
   text-align: center;
   display: inline-block;
-  padding: 2rem;
   width: 70%;
+ 
 }
 .banner-title {
   font-size: 2rem ;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
-  margin-top: 5rem;
-  margin-bottom: 3rem;
-  color: var(--mainWhite)
+  color: var(--mainWhite);
+  margin: 0 ;
+  padding: 0%;
+  height: 100px;
+}
+.banner-title h1{
+  margin: 0 ;
+  padding: 0;
 }
 .banner-title span{
   color: var(--primaryColor);
+  font-size: 40px;
 }
 .banner-btn {
   padding: 1rem 3rem;
@@ -132,10 +150,15 @@
   border: 1px solid var(--primaryColor);
   transition: var(--mainTransition);
   cursor: pointer;
+  
 }
 .banner-btn:hover {
   background: transparent;
   color: var(--primaryColor);
+}
+
+.carousel-control-prev, .carousel-control-next{
+ top:40%;
 }
 /* --------------- End of Hero ---------------- */
 
@@ -171,7 +194,7 @@
 
 
 .service-card{
-    height:350px;
+    height:450px;
 }
 .shadow,
 .subscription-wrapper {
@@ -215,7 +238,7 @@ p,
 .paragraph {
   font-weight: 400;
   color: #8b8e93;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.6;
   font-family: "Open Sans", sans-serif
 }
@@ -278,9 +301,7 @@ p,
 
 /*-----blog area-----*/
 
-.blog-area{
-  
-}
+
 a.img-caption {
   margin: 0 0 40px;
   display: block
@@ -303,7 +324,7 @@ a.img-caption {
   padding: 17px 25px;
   bottom: 0;
   display: block;
-  width: 100%;
+  
   -webkit-transition: background-color .2s ease-in-out;
   -moz-transition: background-color .2s ease-in-out;
   -ms-transition: background-color .2s ease-in-out;
@@ -459,12 +480,21 @@ padding-bottom: 3rem;
   font-size: 13px;
   color: #fff
 }
-
-#team .member .social a {
-  transition: none;
-  color: #fff
+ 
+.team-modal-btn{
+    background: var(--primaryColor);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    color: var(--mainWhite);
 }
-
+.team-modal-btn:hover{
+  color: var(--mainBlack);
+  border: 1px solid #000;
+  font-weight: bolder;
+  background-color: #fff;
+}
   /* -------------join team area----------------*/
 .join-area{ 
   color: var(--mainWhite);
@@ -546,9 +576,7 @@ background-color:  var(--lightgrey);
 color: var(--lightblack);
 margin:  10px;
 }
-.footer-icon:hover{
-    color:var(--primaryColor);
-}
+
 .footer{
     height: 80px;
     background-color: var(--greyishblack);
@@ -557,4 +585,30 @@ margin:  10px;
     font-size: 20px;
     color: var(--lightgrey);
 }
+ .footer-area .fa-facebook-f:hover{
+   background-color: #3b5998;
+   color: #fff;
+ }
+ .footer-area .fa-instagram:hover{
+  background-color:#e95950;
+  color: #fff;
+}
+.footer-area .fa-twitter:hover{
+  background-color:#00aced;
+  color: #fff;
+}
+.footer-area .fa-linkedin:hover{
+  background-color:#007bb6;
+  color: #fff;
+}
 
+/*--------responsive style-------*/
+
+@media screen and (max-width:900px){
+  
+  .responsive-hidden{
+    display: none;
+    visibility: none;
+  }
+  
+}

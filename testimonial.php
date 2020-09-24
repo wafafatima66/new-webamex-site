@@ -41,7 +41,7 @@
  }
  .testimonial-card .testimonial-card-body {
      padding: 1rem 1rem;
-     height:300px
+     height:400px
  }
 
  .testimonial-card-body {
@@ -53,7 +53,7 @@
      font-size: 0.875rem;
      margin-bottom: .5rem;
      line-height: 1.5rem;
-     height:100px
+     height:180px
  }
 
  .testimonial-card-body h4 {
@@ -217,8 +217,8 @@ dots: true
 {
 breakpoint: 600,
 settings: {
-slidesToShow: 2,
-slidesToScroll: 2
+slidesToShow: 1,
+slidesToScroll: 1
 }
 },
 {
