@@ -446,7 +446,7 @@
    
 
         <div class="testimonial-area m-4">
-        <div class="container">
+       
         <div class="testimonial-section-header">
             <h3>Testimonial</h3>
             <p>Let see what our client tell about us </p>
@@ -550,7 +550,7 @@
    
     </div>
     </div>
-</div>
+
 
 <!--end of testimonial area -->
 

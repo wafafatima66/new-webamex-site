@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Amex</title>
 
-    
+  <!--testimoinial style (not fixing in the mian css ) maybe it need to be loaded before slick style -->
+  <link rel="stylesheet" href="css/testimonial-style.css">
 
-  
   <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Mansalva|Open+Sans|Quicksand&display=swap" rel="stylesheet">
 
@@ -22,7 +22,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 
     <!-- CSS in folders -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css"> 
   <link rel="stylesheet" href="css/style.css">
 

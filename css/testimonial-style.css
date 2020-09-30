@@ -1,0 +1,90 @@
+
+.testimonial-section-header h3 {
+    font-size: 36px;
+    color: #283d50;
+    text-align: center;
+    font-weight: 500;
+    position: relative
+  }
+  
+  .testimonial-section-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    color: #556877;
+    width: 50%
+  }
+  
+   .testimonial-card {
+       position: relative;
+       display: flex;
+       width: 350px;
+       flex-direction: column;
+       min-width: 0;
+       word-wrap: break-word;
+       background-color: #fff;
+       background-clip: border-box;
+       border: 1px solid #d2d2dc;
+       border-radius: 11px;
+       -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+       -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+       box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+   }
+  
+   .testimonial-card-title h4{
+       font-size:30px;
+   }
+   .testimonial-card .testimonial-card-body {
+       padding: 1rem 1rem;
+       height:400px
+   }
+  
+   .testimonial-card-body {
+       flex: 1 1 auto;
+       padding: 1.25rem
+   }
+  
+   .testimonial-card-body p {
+       font-size: 0.875rem;
+       margin-bottom: .5rem;
+       line-height: 1.5rem;
+       height:180px
+   }
+  
+   .testimonial-card-body h4 {
+       line-height: .2 !important
+   }
+  
+   .profile {
+       margin-top: 16px;
+       margin-left: 11px
+   }
+  
+   .profile-pic {
+       width: 58px
+   }
+  
+   .cust-name {
+       font-size: 18px
+   }
+  
+   .cust-profession {
+       font-size: 10px
+   }
+  
+   .testimonial-items {
+       width: 90%;
+       margin: 0px auto;
+       margin-top: 50px
+   }
+  
+   .slick-slide {
+       margin: 10px
+   }
+
+   /*some parts of blog part to be loaded before jquery*/
+
+   .img-caption img {
+    position: relative;
+    width: 100%;
+  }
