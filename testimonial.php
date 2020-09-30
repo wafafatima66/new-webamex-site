@@ -1,4 +1,4 @@
-<?php include "link.php"?>
+
 
 <style>
 .testimonial-area{

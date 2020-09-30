@@ -5,7 +5,7 @@
 <header class="main_menu_area">
 
 <nav class="navbar ">
-      <a class="navbar-brand " href="#"><img src="image/logo.png" alt="" "></a>
+      <a class="navbar-brand " href="#"><img src="image/logo.png" alt=""></a>
       <ul class="navbar-nav ml-auto">
           <li class="nav-item reception-icon responsive-hidden">
             <p> Reception: +8801-4518933 <i class="fas fa-phone "></i>  </p>
@@ -39,13 +39,14 @@
             <a class="nav-link " href="#">Portfolio</a>
           </li>
         </ul>
-      </div>
-          <!-- Search form -->
-        <form class="form-inline d-flex justify-content-center md-form form-sm ">
-            <input class="form-control form-control-sm responsive-hidden" type="text" placeholder="Search"
+             <!-- Search form -->
+             <form class="form-inline d-flex md-form form-sm ">
+            <input class="form-control form-control-sm " type="text" placeholder="Search"
             aria-label="Search">
           <i class="fas fa-search responsive-hidden" aria-hidden="true"></i>
         </form> 
+      </div>
+     
     </nav>  
 </header>
 <div class="boundary"></div>
