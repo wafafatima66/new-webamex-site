@@ -228,6 +228,44 @@
         </div>
         <div class="row">
 
+        <div class="col-lg-3 col-md-6 ">
+
+                <div class="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454811/team-4.jpg" class="img-fluid" alt="">
+                    <div class="member-info">
+                        <div class="member-info-content">
+                            <h4>Walt Hannis</h4> <span>Chief Executive Officer</span>
+                        </div>
+                    </div>
+                </div>
+                 
+                <div class="team-modal text-center">
+                        <!-- Button trigger modal -->
+                    <button type="button" class="btn team-modal-btn" data-toggle="modal" data-target="#exampleModalCenter">
+                    Portfolio
+                    </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
             <div class="col-lg-3 col-md-6 ">
 
                 <div class="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454811/team-3.jpg" class="img-fluid" alt="">
