@@ -8,7 +8,7 @@
       <a class="navbar-brand " href="#"><img src="image/logo.png" alt=""></a>
       <ul class="navbar-nav ml-auto">
           <li class="nav-item reception-icon responsive-hidden">
-            <p> Reception: +8801-4518933 <i class="fas fa-phone "></i>  </p>
+            <p> Reception: +8801839474220  </p>
           </li>
       </ul>
 </nav>
@@ -21,30 +21,30 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item ">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About-Us</a>
+            <a class="nav-link" href="about.php">About-Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="blog.php">Blog</a>
           </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link " href="contact.php">Contact</a>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link " href="#">Contact</a>
+            <a class="nav-link " href="service.php">Services</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Services</a>
-          </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link " href="#">Portfolio</a>
-          </li>
+          </li> -->
         </ul>
              <!-- Search form -->
-             <form class="form-inline d-flex md-form form-sm ">
+             <!-- <form class="form-inline d-flex md-form form-sm ">
             <input class="form-control form-control-sm " type="text" placeholder="Search"
             aria-label="Search">
           <i class="fas fa-search responsive-hidden" aria-hidden="true"></i>
-        </form> 
+        </form>  -->
       </div>
      
     </nav>  

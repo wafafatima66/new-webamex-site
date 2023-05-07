@@ -1,120 +1,68 @@
-<?php include "link.php"?>
+<?php include 'link.php'; ?>
+<?php include 'header.php'; ?>
 
-<style>
-
-.blog-area{
+  <!-- <div class="blog-area ">
+      <div class="container mt-5 mb-5 ">
+        <div class="row ">
+          <div class="card col" style="margin: 0 5px;">
+            <img src="image/9.jpg" alt="" class="card-img pt-4" style="">
+              <div class="card-body">
+                <h4 class="card-title">blog 1</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nostrum veniam recusandae quisquam maiores! Velit.</p>
+                    <a  style="background-color:#ff6600;" href="" class="btn btn-block mb-4">Read More</a>
+              </div>
+            </div>
+            <div class="card col" style="margin: 0 5px;">
+              <img src="image/9.jpg" alt="" class="card-img pt-4" style="">
+                <div class="card-body">
+                  <h4 class="card-title">blog 1</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nostrum veniam recusandae quisquam maiores! Velit.</p>
+                      <a style="background-color:#ff6600;" href="" class="btn  btn-block mb-4">Read More</a>
+                </div>
+            </div>
+            <div class="card col" style="margin: 0 5px;">
+              <img src="image/9.jpg" alt="" class="card-img pt-4" style="">
+                <div class="card-body">
+                  <h4 class="card-title">blog 1</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nostrum veniam recusandae quisquam maiores! Velit.</p>
+                      <a style="background-color:#ff6600;" href="" class="btn btn-block mb-4">Read More</a>
+                 </div>
+              </div>
     
-    padding:40px;
-}
-a.img-caption {
-    margin: 0 0 40px;
-    display: block
-}
+          </div>
+        
+  </div>  -->
 
-.img-caption img {
-    position: relative
-}
-
-.img-caption figure {
-    box-sizing: content-box;
-    overflow: hidden;
-    position: relative
-}
-
-.img-caption figcaption {
-    background: rgba(0, 0, 0, .4);
-    position: absolute;
-    box-sizing: content-box;
-    padding: 17px 25px;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    -webkit-transition: background-color .2s ease-in-out;
-    -moz-transition: background-color .2s ease-in-out;
-    -ms-transition: background-color .2s ease-in-out;
-    -o-transition: background-color .2s ease-in-out;
-    transition: background-color .2s ease-in-out
-}
-
-.img-caption:hover figcaption {
-    background: #ff6600;
-}
-
-.img-caption figcaption h3 {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 24px
-}
-
-.mega .img-caption figcaption h3 {
-    font-size: 14px;
-    line-height: 20px
-}
-
-.mega .img-caption figcaption span {
-    font-size: 14px;
-    line-height: 14px
-}
-
-.mega .img-caption figcaption {
-    padding: 10px 20px
-}
-
-.img-caption figcaption span {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 16px;
-    display: block;
-    position: relative;
-    opacity: 0;
-    max-height: 0;
-    padding: 0;
-    -webkit-transition: max-height .2s ease-in-out, opacity .2s ease-in-out, padding .2s ease-in-out;
-    -moz-transition: max-height .2s ease-in-out, opacity .2s ease-in-out, padding .2s ease-in-out;
-    -ms-transition: max-height .2s ease-in-out, opacity .2s ease-in-out, padding .2s ease-in-out;
-    -o-transition: max-height .2s ease-in-out, opacity .2s ease-in-out, padding .2s ease-in-out;
-    transition: max-height .2s ease-in-out, opacity .2s ease-in-out, padding .2s ease-in-out
-}
-
-.img-caption:hover figcaption span {
-    max-height: 50px;
-    opacity: 1;
-    padding: 5px 0 4px
-}
-</style>
-<div class="blog-area mt-5">
-    
-
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <h2 class="section-title">Read our articles</h2>
+  <div class="blog-area mt-5">
+  <div class="container">
+      <div class="section-header">
+            <h3>Blog</h3>
+            <p>Read Our articles</p>
         </div>
-
-        <div class="one-third col-md-4"> <a href="#" class="img-caption">
-                <figure> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1556030102/home-office-336373_640.jpg" alt="" />
-                    <figcaption>
-                        <h3>MY First Caption</h3> <span>For what reason would it be advisable for me to think about business content?</span>
-                    </figcaption>
-                </figure>
-            </a> </div>
-        <div class="one-third col-md-4"> <a href="#" class="img-caption">
-                <figure> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1556030091/office-620822_640.jpg" alt="" />
-                    <figcaption>
-                        <h3>MY Second Caption</h3> <span>For what reason would it be advisable for me to think about business content?</span>
-                    </figcaption>
-                </figure>
-            </a> </div>
-        <div class="one-third col-md-4"> <a href="#" class="img-caption">
-                <figure> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1556030070/desktop-1985856_640.jpg" alt="" />
-                    <figcaption>
-                        <h3>MY Third Caption</h3> <span>For what reason would it be advisable for me to think about business content?</span>
-                    </figcaption>
-                </figure>
-            </a> </div>
-    </div>
+         <div class="row">
+           <div class="one-third col-md-4 "> <a href="#" class="img-caption">
+                  <figure> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1556030102/home-office-336373_640.jpg" alt="" />
+                      <figcaption>
+                          <h3>9 Weird Income Sources From Fiverr</h3> <span>Did you get a little bit worried that to earn money from Fiverr, you need lots of IT skills or management skills?</span>
+                      </figcaption>
+                  </figure>
+              </a> 
+            </div>
+          <div class="one-third col-md-4"> <a href="#" class="img-caption">
+                  <figure> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1556030091/office-620822_640.jpg" alt="" />
+                      <figcaption>
+                          <h3>SEO Tools to Increase Organic Traffic and Increase Profits</h3> <span>It is important to understand SEO tools so as to make the best use of them. </span>
+                      </figcaption>
+                  </figure>
+              </a> </div>
+          <div class="one-third col-md-4"> <a href="#" class="img-caption">
+                  <figure> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1556030070/desktop-1985856_640.jpg" alt="" />
+                      <figcaption>
+                          <h3>9 solid reasons for website redesign in 2023</h3> <span>There are numerous reasons for a website redesign that need your undivided attention, commitment, and investment</span>
+                      </figcaption>
+                  </figure>
+              </a> </div>
+      </div>
+  </div>
 </div>
-</div>
+  <?php include 'footer.php'; ?>

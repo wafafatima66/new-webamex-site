@@ -52,14 +52,14 @@
                 <div class="col-sm-4 text-center ">
                   <div class="get-started-icon">
                   <i class="fa fa-calendar  get-icon"></i><br>
-                  <span >Call Now</span></a>
+                  <span >Make a appointment</span></a>
                   </div>
                 </div>
 
                 <div class="col-sm-4 text-center ">
                   <div class="get-started-icon">
                   <i class="fa fa-envelope get-icon"></i><br>
-                  <span >Call Now</span></a>
+                  <span >Message Us</span></a>
                   </div>
                 </div>
 
@@ -77,41 +77,48 @@
             <h3>Services</h3>
             <p>Look at our Services</p>
         </div>
+
     <div class="row">
    
-        <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="col-lg-6 col-sm-6 mb-4">
             <div class="card service-card border-0 shadow">
                 <div class="card-body"> <i class="fa fa-object-ungroup icon-lg icon-primary icon-bg-primary mb-3"></i>
-                    <h4 class="mt-4 mb-3">Networking</h4>
-                    <p>For what reason would it be advisable for me to think about business content?</p>
+                    <h4 class="mt-4 mb-3">WEB DEVELOPMENT</h4>
+                    <p>Webamex is one of the best new Website design and development company in Bangladesh. We already deliver more than 11 Dynamic Website for different Sector</p>
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-sm-6 mb-4">
+        
+        <div class="col-lg-6 col-sm-6 mb-4">
             <div class="card service-card  border-0 shadow  ">
                 <div class="card-body"> <i class="fa fa-users icon-lg icon-yellow icon-bg-yellow  mb-3"></i>
-                    <h4 class="mt-4 mb-3">Social Activity</h4>
-                    <p>For what reason would it be advisable for me to think about business content?</p>
+                    <h4 class="mt-4 mb-3">SOFTWARE</h4>
+                    <p>Webamex is popular in small customized Software. Any Business needs a Software for better operation and calculation. Almost 95% office does not use the software. That non-technical people need user-friendly and customized software.</p>
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-sm-6 mb-4">
+
+        </div>
+
+        <div class="row">
+
+        <div class="col-lg-6 col-sm-6 mb-4">
             <div class="card border-0 shadow service-card ">
                 <div class="card-body"> <i class="fa fa-desktop icon-lg icon-purple icon-bg-purple  mb-3"></i>
-                    <h4 class="mt-4 mb-3">Web Design</h4>
-                    <p>For what reason would it be advisable for me to think about business content?</p>
+                    <h4 class="mt-4 mb-3">Mobile App</h4>
+                    <p>Webamex provides the best quality of Android and IOS application with the best cost in Bangladesh. WEBAMEX- Mobile Application team is highly qualified. Stay with WEBAMEX</p>
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="col-lg-6 col-sm-6 mb-4">
             <div class="card border-0 shadow service-card ">
                 <div class="card-body"> <i class="fa fa-cloud icon-lg icon-cyan icon-bg-cyan  mb-3"></i>
-                    <h4 class="mt-4 mb-3">Cloud Service</h4>
-                    <p>For what reason would it be advisable for me to think about business content?</p>
+                    <h4 class="mt-4 mb-3">Digital Marketing</h4>
+                    <p>Facebook and Others Social Media, Youtube, google, SEO, email, SMS and affiliate are the most powerfull tools of digital marketing.Digital Marketing is the Most effective.</p>
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-sm-6 mb-4">
+        <!-- <div class="col-lg-3 col-sm-6 mb-4">
             <div class="card border-0 shadow service-card ">
                 <div class="card-body"> <i class="fa fa-comments icon-lg icon-red icon-bg-red  mb-3"></i>
                     <h4 class="mt-4 mb-3">Consulting</h4>
@@ -142,7 +149,7 @@
                     <p>For what reason would it be advisable for me to think about business content?</p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
     </div>
@@ -157,25 +164,25 @@
             <p>Read Our articles</p>
         </div>
          <div class="row">
-           <div class="one-third col-md-4 "> <a href="#" class="img-caption">
+           <div class="one-third col-md-4 "> <a href="blog-1.php" class="img-caption">
                   <figure> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1556030102/home-office-336373_640.jpg" alt="" />
                       <figcaption>
-                          <h3>MY First Caption</h3> <span>For what reason would it be advisable for me to think about business content?</span>
+                          <h3>9 Weird Income Sources From Fiverr</h3> <span>Did you get a little bit worried that to earn money from Fiverr, you need lots of IT skills or management skills?</span>
                       </figcaption>
                   </figure>
               </a> 
             </div>
-          <div class="one-third col-md-4"> <a href="#" class="img-caption">
+          <div class="one-third col-md-4"> <a href="blog-2.php" class="img-caption">
                   <figure> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1556030091/office-620822_640.jpg" alt="" />
                       <figcaption>
-                          <h3>MY Second Caption</h3> <span>For what reason would it be advisable for me to think about business content?</span>
+                          <h3>SEO Tools to Increase Organic Traffic and Increase Profits</h3> <span>It is important to understand SEO tools so as to make the best use of them. </span>
                       </figcaption>
                   </figure>
               </a> </div>
-          <div class="one-third col-md-4"> <a href="#" class="img-caption">
+          <div class="one-third col-md-4"> <a href="blog-3.php" class="img-caption">
                   <figure> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1556030070/desktop-1985856_640.jpg" alt="" />
                       <figcaption>
-                          <h3>MY Third Caption</h3> <span>For what reason would it be advisable for me to think about business content?</span>
+                          <h3>9 solid reasons for website redesign in 2023</h3> <span>There are numerous reasons for a website redesign that need your undivided attention, commitment, and investment</span>
                       </figcaption>
                   </figure>
               </a> </div>
@@ -230,10 +237,10 @@
 
         <div class="col-lg-3 col-md-6 ">
 
-                <div class="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454811/team-4.jpg" class="img-fluid" alt="">
+                <div class="member"> <img src="./image/1.png" class="img-fluid" alt="">
                     <div class="member-info">
                         <div class="member-info-content">
-                            <h4>Walt Hannis</h4> <span>Chief Executive Officer</span>
+                            <h4>Shakib Hossain</h4> 
                         </div>
                     </div>
                 </div>
@@ -244,7 +251,7 @@
                     Portfolio
                     </button>
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -262,16 +269,16 @@
                                     </div>  
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6 ">
 
-                <div class="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454811/team-3.jpg" class="img-fluid" alt="">
+                <div class="member"> <img src="./image/2.png" class="img-fluid" alt="">
                     <div class="member-info">
                         <div class="member-info-content">
-                            <h4>Walt Hannis</h4> <span>Chief Executive Officer</span>
+                            <h4>Umme Salama Hafsa</h4> 
                         </div>
                     </div>
                 </div>
@@ -282,7 +289,7 @@
                     Portfolio
                     </button>
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -300,16 +307,16 @@
                                     </div>  
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                 </div>
             </div>
             
              <div class="col-lg-3 col-md-6 ">
 
-                <div class="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454811/team-2.jpg" class="img-fluid" alt="">
+                <div class="member"> <img src="./image/3.png" class="img-fluid" alt="">
                     <div class="member-info">
                         <div class="member-info-content">
-                            <h4>Walt Hannis</h4> <span>Chief Executive Officer</span>
+                            <h4>Sayem Habibul</h4> 
                         </div>
                     </div>
                 </div>
@@ -320,7 +327,7 @@
                     Portfolio
                     </button>
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -338,16 +345,16 @@
                                     </div>  
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                 </div>
             </div>
 
              <div class="col-lg-3 col-md-6 ">
 
-                <div class="member"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559454811/team-1.jpg" class="img-fluid" alt="">
+                <div class="member"> <img src="./image/5.png" class="img-fluid" alt="">
                     <div class="member-info">
                         <div class="member-info-content">
-                            <h4>Walt Hannis</h4> <span>Chief Executive Officer</span>
+                            <h4>Fatima Amir</h4> 
                         </div>
                     </div>
                 </div>
@@ -358,7 +365,7 @@
                     Portfolio
                     </button>
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -376,7 +383,7 @@
                                     </div>  
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                 </div>
             </div>
           
@@ -401,7 +408,7 @@
 
   <!--project area -->
   
-<div class="portfolio mt-5">
+<!-- <div class="portfolio mt-5">
         <div class="section-header">
             <h3>Portfolio</h3>
             <p>Look at our Projects</p>
@@ -467,16 +474,16 @@
           </div>
         </div>  
     </div>
-</div>
+</div> -->
 
 <!--adding view more button-->
-    <div class="p-4">
+    <!-- <div class="p-4">
       <div class="container">
         <div class="text-center">
           <button class= "view-button btn"><a href="">View More</a></button>
         </div>
       </div>
-      </div>
+      </div> -->
 
     <!--project area end-->
 
@@ -495,15 +502,15 @@
         <div class=" testimonial-card-body">
             <h4 class="testimonial-card-title"><i class="fas fa-quote-left"></i></h4>
             <div class="template-demo">
-                <p>Online reviews can make or break a customer's decision to make a purchase. Read about these customer review sites where your customers'</p>
+                <p>Thanks Webamex for great support on our project. They not only showed their commitment and hard work in our project, but also helped us take care of some points that got missed by us and did not belong to their scope. It is a great help if the objective is in making the service successful, instead of just completing the project. The experience working with Webamex is great. Thanks and please keep on the same service and accountability!</p>
             </div>
             <hr>
             <div class="row">
                 <div class="col-sm-2"> <img class="profile-pic" src="https://img.icons8.com/bubbles/100/000000/edit-user.png"> </div>
                 <div class="col-sm-10">
                     <div class="profile">
-                        <h4 class="cust-name">Delbert Simonas</h4>
-                        <p class="cust-profession">Store Owner</p>
+                        <h4 class="cust-name">Grant Robbin</h4>
+                        <p class="cust-profession">Taiwan</p>
                     </div>
                 </div>
             </div>
@@ -514,15 +521,15 @@
         <div class=" testimonial-card-body">
             <h4 class="testimonial-card-title"><i class="fas fa-quote-left"></i></h4>
             <div class="template-demo">
-                <p>Online reviews can make or break a customer's decision to make a purchase. Read about these customer review sites where your customers'</p>
+                <p>Great work!!! The team was solid, efficient and knowledgeable. They did an amazing job on my very challenging app. I will be using them again. Thank you for doing such a great job! </p>
             </div>
             <hr>
             <div class="row">
                 <div class="col-sm-2"> <img class="profile-pic" src="https://img.icons8.com/bubbles/100/000000/edit-user.png"> </div>
                 <div class="col-sm-10">
                     <div class="profile">
-                        <h4 class="cust-name">Delbert Simonas</h4>
-                        <p class="cust-profession">Store Owner</p>
+                        <h4 class="cust-name">Jason Griffin</h4>
+                        <p class="cust-profession">Malaysia</p>
                     </div>
                 </div>
             </div>
@@ -533,15 +540,15 @@
         <div class=" testimonial-card-body">
             <h4 class="testimonial-card-title"><i class="fas fa-quote-left"></i></h4>
             <div class="template-demo">
-                <p>Online reviews can make or break a customer's decision to make a purchase. Read about these customer review sites where your customers'</p>
+                <p>Webamex is driven by a passion to create and deliver on new ideas and that is reflected in their work. It is a team that strives for excellence and is open to experimenting and creating new trends in the business. Our work relationship has been productive and we have collectively been able to achieve great results. I wish Team Webamex more triumphs in future.</p>
             </div>
             <hr>
             <div class="row">
                 <div class="col-sm-2"> <img class="profile-pic" src="https://img.icons8.com/bubbles/100/000000/edit-user.png"> </div>
                 <div class="col-sm-10">
                     <div class="profile">
-                        <h4 class="cust-name">Delbert Simonas</h4>
-                        <p class="cust-profession">Store Owner</p>
+                        <h4 class="cust-name">Haiyan Dong</h4>
+                        <p class="cust-profession">USA</p>
                     </div>
                 </div>
             </div>
@@ -552,15 +559,15 @@
         <div class=" testimonial-card-body">
             <h4 class="testimonial-card-title"><i class="fas fa-quote-left"></i></h4>
             <div class="template-demo">
-                <p>Online reviews can make or break a customer's decision to make a purchase. Read about these customer review sites where your customers'</p>
+                <p>Webamex provides a high standard of service. They are quick to address questions and concerns and produce quality work. We look forward to working with them in the future.</p>
             </div>
             <hr>
             <div class="row">
                 <div class="col-sm-2"> <img class="profile-pic" src="https://img.icons8.com/bubbles/100/000000/edit-user.png"> </div>
                 <div class="col-sm-10">
                     <div class="profile">
-                        <h4 class="cust-name">Delbert Simonas</h4>
-                        <p class="cust-profession">Store Owner</p>
+                        <h4 class="cust-name">Sunny</h4>
+                        <p class="cust-profession">Canada</p>
                     </div>
                 </div>
             </div>

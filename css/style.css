@@ -433,7 +433,7 @@ padding-bottom: 3rem;
   text-align: center;
   margin-bottom: 20px;
   position: relative;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   overflow: hidden
 }
 
@@ -552,6 +552,7 @@ padding-bottom: 3rem;
 }
 .footer-para{
     color: var(--lightgrey);
+    font-size: 15px;
     
 }
 .footer-para:hover{
@@ -615,4 +616,7 @@ margin:  10px;
     visibility: none;
   }
   
+}
+.img-fluid{
+  height: 300px;
 }
